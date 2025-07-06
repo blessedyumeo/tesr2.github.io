@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEFUNT LONGLEEVE | Les Échos Du Passé</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/product.css">
+    <link rel="stylesheet" href="../css/modal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <script src="../js/app.js" defer></script>
+    <script src="../js/product.js" defer></script>
+    <script src="../js/cart.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+            <a href="#" class="links">
+                <img src="images/tg.png" alt="tg" class="links__icon">
+            </a>
+            <a href="../index.html" class="logo">
+                <img src="images/logo.png" alt="logo" class="logo__img">
+            </a>
+            <a href="#" class="shop" id="cart-button">
+                <img src="images/corzina.png" alt="corzina" class="shop__img">
+                <span class="cart-counter">0</span>
+            </a>
+        </div>
+        </div>
+    
+
+        <main class="product-main">
+            <div class="product-gallery">
+                <img src="images/cloth1.png" alt="DEFUNT LONGLEEVE" class="main-image">
+                <div class="thumbnails">
+                    <img src="images/cloth1.png" alt="DEFUNT LONGLEEVE вид 1">
+                    <img src="images/cloth2.png" alt="DEFUNT LONGLEEVE вид 2">
+                </div>
+            </div>
+
+            <div class="product-details">
+                <h1 class="product-title">DEFUNT LONGLEEVE</h1>
+                <p class="product-price">3800 руб.</p>
+            
+                <div class="size-selector">
+                    <label>Размер:</label>
+                    <select>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                    </select>
+                </div>
+
+                <button class="add-to-cart" data-id="1">Добавить в корзину</button>
+            
+                <div class="product-description">
+                    <h3>Описание</h3>
+                    <p>Лонгслив премиум-качества из 100% хлопка. Уникальный принт, выполненный вручную. Удобная посадка, высокая износостойкость.</p>
+                
+                    <h3>Состав</h3>
+                    <p>100% хлопок</p>
+                
+                    <h3>Уход</h3>
+                    <p>Стирка при 30°C, не отбеливать, гладить при средней температуре</p>
+                </div>
+            </div>
+        </main>
+    </header>
+    <div id="cart-modal" class="cart-modal">
+    <div class="cart-content">
+        <span class="close-cart">&times;</span>
+        <h2>Ваша корзина</h2>
+        <div class="cart-items"></div>
+        <div class="cart-total">Итого: <span class="total-price">0</span> руб.</div>
+        <button class="checkout-btn">Оформить заказ</button>
+    </div>
+</div>
+    
+</body>
+</html>
