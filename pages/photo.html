@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/photo.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main">
+            <nav class="menu">
+                <ul class="menu-list">
+                    <li><a href="../index.html" class="menu-text">Главная</a></li>
+                    <li><a href="about.html" class="menu-text active">Обо мне</a></li>
+                    <li><a href="contacts.html" class="menu-text">Контакты</a></li>
+                    <li><a href="predshop.html" class="menu-text">Магазин</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="images/example1.jpg" alt="" onclick="openModal(this.src, this.alt)">
+                <div class="image-caption"></div>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="images/example2.jpg" alt="" onclick="openModal(this.src, this.alt)">
+                <div class="image-caption"></div>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="images/example3.jpg" alt="" onclick="openModal(this.src, this.alt)">
+                <div class="image-caption"></div>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="images/example4.jpg" alt="" onclick="openModal(this.src, this.alt)">
+                <div class="image-caption"></div>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="images/example5.jpg" alt="" onclick="openModal(this.src, this.alt)">
+                <div class="image-caption"></div>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="images/example6.jpg" alt="" onclick="openModal(this.src, this.alt)">
+                <div class="image-caption"></div>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="images/example7.jpg" alt="" onclick="openModal(this.src, this.alt)">
+                <div class="image-caption"></div>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="images/example8.jpg" alt="" onclick="openModal(this.src, this.alt)">
+                <div class="image-caption"></div>
+            </div>
+        </div>
+    </div>
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption" class="modal-caption"></div>
+    </div>
+    
+    
+</body>
+</html>
