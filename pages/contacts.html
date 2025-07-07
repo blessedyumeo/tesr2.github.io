@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты | Даниил Николаев</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Jost:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main">
+            <nav class="menu">
+                <ul class="menu-list">
+                    <li><a href="../index.html" class="menu-text">Главная</a></li>
+                    <li><a href="about.html" class="menu-text">Обо мне</a></li>
+                    
+                    <li><a href="contacts.html" class="menu-text active">Контакты</a></li>
+                    <li><a href="shop.html" class="menu-text">Магазин</a></li>
+                </ul>
+            </nav>
+            
+            <div class="contacts-container">
+                <h1 class="contacts-title">Свяжитесь со мной</h1>
+                <p class="contacts-subtitle">Я всегда открыт для новых предложений и сотрудничества</p>
+                
+                <div class="contacts-grid">
+                    <div class="contact-card">
+                        <a href="" class="contact-icon">
+                            <img src="../images/email.svg" alt="">
+                        </a>
+                        <h3>Email</h3>
+                        <a href="idanyalook@bk.ru" class="contact-link">idanyalook@bk.ru</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <a href="" class="contact-icon">
+                            <img src="../images/tel.png" alt="">
+                        
+                        </a>
+                            
+                        <h3>Телефон</h3>
+                        <a href="tel:+79003336016" class="contact-link">+7(900)333-60-16</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <a href="https://t.me/Yoiyumeo" class="contact-icon">
+                            <img src="../images/telegram.png" alt="">
+                        </a>
+                        <h3>Telegram</h3>
+                        <a href="https://t.me/Yoiyumeo" target="_blank" class="contact-link">t.me/Yoiyumeo</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <a href="" class="contact-icon">
+                            <img src="../images/git.png" alt="">
+                        </a>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com" target="_blank" class="contact-link">github.com/blessedyumeo</a>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <h2 class="form-title">Написать сообщение</h2>
+                    
+                    <div class="form-group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Сообщение</label>
+                        <textarea id="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
